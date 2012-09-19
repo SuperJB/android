@@ -334,10 +334,10 @@
 <!-- Devices -->
 	<!--Samsung Common -->
   <project path="device/samsung/galaxys2-common" name="SuperJB-Devices/android_device_samsung_galaxys2-common" remote="github" revision="jellybean" />
-	<!-- Galaxy NOTE -->
-  <project path="device/samsung/n7000" name="SuperJB-Devices/android_device_samsung_n7000" remote="github" revision="jellybean" />
 	<!-- Galaxy S3 -->
   <project path="device/samsung/i9300" name="SuperJB-Devices/android_device_samsung_i9300" remote="github" revision="jellybean" />
+	<!-- Galaxy NOTE -->
+  <project path="device/samsung/n7000" name="SuperJB-Devices/android_device_samsung_n7000" remote="github" revision="jellybean" />
 
 <!-- Hardware Common-Samsung -->
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="jellybean" />
