@@ -26,13 +26,13 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
-  <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
+  <!--<project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
+  <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />-->
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
-  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
+  <!--<project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />-->
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
