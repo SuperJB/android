@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Only include here the device repository definitions
+     Other dependencies should be defined in the cm.dependencies file
+-->
+<project name="SuperJB-Devices/android_device_samsung_galaxysmtd" path="device/samsung/galaxysmtd" />
+<project path="device/asus/grouper" name="SuperJB-Devices/android_device_asus_grouper" remote="github" revision="jellybean" />
+<project path="device/samsung/i9100" name="SuperJB-Devices/android_device_samsung_i9100" remote="github" revision="jellybean" />
+<project path="device/samsung/i9300" name="SuperJB-Devices/android_device_samsung_i9300" remote="github" revision="jellybean" />
+<project path="device/samsung/n7000" name="SuperJB-Devices/android_device_samsung_n7000" remote="github" revision="jellybean" />
+
+</manifest>
