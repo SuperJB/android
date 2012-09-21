@@ -326,7 +326,6 @@
   <project path="build" name="SuperJB/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="devices_manifest" name="SuperJB/devices_manifest" remote="github" revision="jellybean" />
 
 <!-- Apps -->
   <project path="packages/apps/Settings" name="SuperJB/android_packages_apps_Settings" remote="github" revision="jellybean" />
