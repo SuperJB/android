@@ -329,7 +329,6 @@
   <project path="devices_manifest" name="SuperJB/devices_manifest" remote="github" revision="jellybean" />
 
 <!-- Apps -->
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="jellybean" />
   <project path="packages/apps/Settings" name="SuperJB/android_packages_apps_Settings" remote="github" revision="jellybean" />
 
 <!-- Vendor -->
