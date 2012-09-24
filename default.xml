@@ -320,7 +320,6 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
-</manifest>
 
 <!-- SuperTe@m -->
   <project path="build" name="SuperJB/android_build">
