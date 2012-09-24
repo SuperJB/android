@@ -12,6 +12,10 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.com" />
+
   <default remote="aosp"
            sync-j="4" />
 
