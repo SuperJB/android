@@ -19,7 +19,7 @@
   <default remote="aosp"
            sync-j="4" />
 
-  <project path="android" name="SuperJB/android" remote="github" revision="jb-aokp" />
+  <project path="android" name="SuperJB/android" remote="github" revision="jb-allwinner" />
   
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="bionic" name="AOKP/android_bionic" remote="aokp" revision="jb" />
@@ -184,8 +184,6 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
-  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
@@ -193,7 +191,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="frameworks/mff" name="platform/frameworks/mff" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="frameworks/ml" name="platform/frameworks/ml" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
-  <project path="frameworks/native" name="AOKP/frameworks_native" remote="aokp" revision="jb" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
@@ -302,14 +299,11 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="sdk" name="AOKP/android_sdk" remote="aokp" revision="jb" />
-  <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
-  <project path="system/core" name="AOKP/android_system_core" remote="aokp" revision="jb" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
-  <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
-
+  
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb" />
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
@@ -336,8 +330,15 @@
   <project path="packages/apps/SoundRecorder2" name="SuperJB/android_packages_apps_SoundRecorder2" remote="github" revision="jellybean" />
   <project path="packages/apps/Wallpapers" name="SuperJB/android_packages_apps_Wallpapers" remote="github" revision="jellybean" />
 
-  <project path="hardware/libhardware" name="corvusmod/android_hardware_libhardware" remote="github" revision="jb-allwinner" />
+  <project path="hardware/libhardware" name="corvusmod/hardware_libhardware" remote="github" revision="jb-allwinner" />
   <project path="hardware/realtek" name="corvusmod/android_hardware_realtek" remote="github" revision="jb-allwinner"  />
+  <project path="frameworks/av" name="corvusmod/frameworks_av" remote="github" revision="jb-allwinner" />
+  <project path="frameworks/base" name="corvusmod/frameworks_base" remote="github" revision="jb-allwinner" />
+  <project path="frameworks/native" name="corvusmod/frameworks_native" remote="github" revision="jb-allwinner" />
+  <project path="system/bluetooth" name="corvusmod/system_bluetooth" remote="github" revision="jb-allwinner" />
+  <project path="system/core" name="corvusmod/android_system_core" remote="github" revision="jb-allwinner" />
+  <project path="system/vold" name="corvusmod/system_vold" remote="github" revision="jb-allwinner" />
+  
 
 <!-- Vendor -->
 	<!--Common -->
