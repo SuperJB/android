@@ -329,8 +329,7 @@
   </project>
 
 <!-- Apps -->
-  <project path="packages/apps/Settings" name="SuperJB/android_packages_apps_Settings" remote="github" revision="jellybean" />
-
+ 
 <!-- Vendor -->
 	<!--Common -->
   <project path="vendor/osr" name="SuperJB-Vendor/android_vendor_osr" remote="github" revision="jellybean" />
