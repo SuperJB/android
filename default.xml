@@ -18,7 +18,7 @@
   <default remote="aosp"
            sync-j="4" />
 
-  <project path="android" name="SuperJB/android" remote="github" revision="jb-aokp" />
+  <project path="android" name="SuperJB/android" remote="github" revision="jellybean" />
   
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="bionic" name="AOKP/android_bionic" remote="aokp" revision="jb" />
