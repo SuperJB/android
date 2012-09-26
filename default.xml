@@ -326,7 +326,7 @@
   </project>
 
 <!-- Apps -->
-  <project path="frameworks/base" name="SuperJBP/android_frameworks_base" remote="github" revision="jellybean" />
+  <project path="frameworks/base" name="SuperJB/android_frameworks_base" remote="github" revision="jellybean" />
   <project path="packages/apps/ContactsWidgets" name="SuperJB/android_packages_apps_ContactsWidgets" remote="github" revision="jellybean" />
   <project path="packages/apps/FileExplorer" name="SuperJB/android_packages_apps_FileExplorer" remote="github" revision="jellybean" />
   <project path="packages/apps/Notes" name="SuperJB/android_packages_apps_Notes" remote="github" revision="jellybean" />
