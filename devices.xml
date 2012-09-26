@@ -8,6 +8,6 @@
 <project path="device/samsung/i9100" name="SuperJB-Devices/android_device_samsung_i9100" remote="github" revision="jellybean" />
 <project path="device/samsung/i9300" name="SuperJB-Devices/android_device_samsung_i9300" remote="github" revision="jellybean" />
 <project path="device/samsung/n7000" name="SuperJB-Devices/android_device_samsung_n7000" remote="github" revision="jellybean" />
-<project path="device/softwinner/mk802" name="SuperJB-Devices/android_device_mk802" remote="github" revision="jellybean" />
+<project path="device/softwinner/mk802" name="SuperJB-Devices/android_device_mk802" remote="github" revision="jb-allwinner" />
 
 </manifest>
