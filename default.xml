@@ -330,7 +330,7 @@
 
   <project path="hardware/libhardware" name="corvusmod/hardware_libhardware" remote="github" revision="jb-allwinner" />
   <project path="frameworks/av" name="corvusmod/frameworks_av" remote="github" revision="jb-allwinner" />
-  <project path="frameworks/base" name="corvusmod/frameworks_base" remote="github" revision="jb-allwinner" />
+  <project path="frameworks/base" name="SuperJB/android_frameworks_base" remote="github" revision="jb-allwinner" />
   <project path="frameworks/native" name="corvusmod/frameworks_native" remote="github" revision="jb-allwinner" />
   <project path="system/bluetooth" name="corvusmod/system_bluetooth" remote="github" revision="jb-allwinner" />
   <project path="system/core" name="corvusmod/android_system_core" remote="github" revision="jb-allwinner" />
