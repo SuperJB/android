@@ -184,7 +184,6 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
@@ -327,6 +326,7 @@
   </project>
 
 <!-- Apps -->
+  <project path="frameworks/base" name="SuperJBP/android_frameworks_base" remote="github" revision="jellybean" />
   <project path="packages/apps/ContactsWidgets" name="SuperJB/android_packages_apps_ContactsWidgets" remote="github" revision="jellybean" />
   <project path="packages/apps/FileExplorer" name="SuperJB/android_packages_apps_FileExplorer" remote="github" revision="jellybean" />
   <project path="packages/apps/Notes" name="SuperJB/android_packages_apps_Notes" remote="github" revision="jellybean" />
