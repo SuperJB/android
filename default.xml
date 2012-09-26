@@ -13,8 +13,7 @@
            review="review.cyanogenmod.com" />
 
   <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.com" />
+	   fetch="https://github.com/" />
 
   <default remote="aosp"
            sync-j="4" />
@@ -249,7 +248,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
@@ -331,8 +329,8 @@
   <project path="packages/apps/ContactsWidgets" name="SuperJB/android_packages_apps_ContactsWidgets" remote="github" revision="jellybean" />
   <project path="packages/apps/FileExplorer" name="SuperJB/android_packages_apps_FileExplorer" remote="github" revision="jellybean" />
   <project path="packages/apps/Notes" name="SuperJB/android_packages_apps_Notes" remote="github" revision="jellybean" />
-  <!--<project path="packages/apps/ROMControl" name="SuperICS/android_packages_apps_ROMControl" remote="github" />
-  <project path="packages/apps/Settings" name="SuperICS/android_packages_apps_Settings" remote="github" />-->
+  <!--<project path="packages/apps/ROMControl" name="SuperICS/android_packages_apps_ROMControl" remote="github" />-->
+  <project path="packages/apps/Settings" name="SuperJB/android_packages_apps_Settings" remote="github" revision="jellybean" />
   <project path="packages/apps/SoundRecorder2" name="SuperJB/android_packages_apps_SoundRecorder2" remote="github" revision="jellybean" />
   <project path="packages/apps/Wallpapers" name="SuperJB/android_packages_apps_Wallpapers" remote="github" revision="jellybean" />
 
