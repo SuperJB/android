@@ -15,7 +15,8 @@
   <remote  name="github"
 	   fetch="https://github.com/" />
 
-  <default remote="aosp"
+  <default revision="refs/heads/jellybean"
+           remote="aosp"
            sync-j="4" />
 
   <project path="android" name="SuperJB/android" remote="github" revision="jb-allwinner" />
