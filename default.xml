@@ -8,7 +8,7 @@
 	   fetch=".." />
 
   <default revision="refs/heads/jellybean"
-           remote="aosp"
+           remote="github"
            sync-j="4" />
 
   <project path="android" name="SuperJB/android" remote="github" revision="jellybean" />
