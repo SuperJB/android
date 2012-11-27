@@ -204,7 +204,7 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="jellybean" />
   <project path="hardware/qcom/gps" name="Evervolv/android_hardware_qcom_gps" remote="github" revision="jellybean" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="jellybean" />
-  <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="github" revision="jb" />
+  <project path="hardware/ril" name="SuperJB/android_hardware_ril" remote="github" revision="jellybean" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="jellybean" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
