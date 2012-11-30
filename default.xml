@@ -14,12 +14,12 @@
   <project path="android" name="SuperJB/android" remote="github" revision="jellybean" />
   
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="bionic" name="AOKP/android_bionic" remote="github" revision="jb" />
+  <project path="bionic" name="SuperJB/android_bionic" remote="github" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="github" revision="jellybean" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="github" revision="jellybean" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="dalvik" name="AOKP/platform_dalvik" remote="github" revision="jb" />
+  <project path="dalvik" name="SuperJB/android_dalvik" remote="github" revision="jellybean" />
   <project path="development" name="AOKP/platform_development" remote="github" revision="jb" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -154,7 +154,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/speex" name="platform/external/speex" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/sqlite" name="AOKP/external_sqlite" remote="github" revision="jb" />
-  <project path="external/srec" name="platform/external/srec" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
+  <project path="external/srec" name="SuperJB/android_external_srec" remote="github" revision="jellybean" />
   <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/strace" name="platform/external/strace" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
