@@ -19,7 +19,7 @@
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="github" revision="jellybean" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="dalvik" name="SuperJB/android_dalvik" remote="github" revision="jellybean" />
+  <project path="dalvik" name="SuperJB/android_dalvik" remote="github" revision="jb-4.2" />
   <project path="development" name="AOKP/platform_development" remote="github" revision="jb-mr1" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
