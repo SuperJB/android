@@ -21,46 +21,44 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="dalvik" name="SuperJB/android_dalvik" remote="github" revision="jb-4.2" />
   <project path="development" name="AOKP/platform_development" remote="github" revision="jb-mr1" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
-  <project path="device/common" name="device/common" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
-  <project path="device/generic/common" name="device/generic/common" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="device/generic/mips" name="device/generic/mips" />
-  <project path="device/generic/x86" name="device/generic/x86" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/google/phantasm" name="device/google/phantasm" groups="device" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
-  <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device" />
-  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/generic/armv7-a" name="device/generic/armv7-a" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/generic/common" name="device/generic/common" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/generic/mips" name="device/generic/mips" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/generic/x86" name="device/generic/x86" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/google/phantasm" name="device/google/phantasm" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/samsung/toro" name="device/samsung/toro" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="device/ti/panda" name="device/ti/panda" groups="device" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="platform/external/android-mock" />
-  <project path="external/ant-glob" name="platform/external/ant-glob" />
-  <project path="external/antlr" name="platform/external/antlr" />
-  <project path="external/apache-harmony" name="platform/external/apache-harmony" />
-  <project path="external/apache-http" name="platform/external/apache-http" />
-  <project path="external/apache-qp" name="platform/external/apache-qp" />
-  <project path="external/apache-xml" name="platform/external/apache-xml" />
-  <project path="external/arduino" name="platform/external/arduino" />
+  <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/ant-glob" name="platform/external/ant-glob" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/apache-qp" name="platform/external/apache-qp" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/arduino" name="platform/external/arduino" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/astl" name="platform/external/astl" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="jellybean" />
   <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/bluetooth/bluez" name="AOKP/external_bluetooth_bluez" remote="github" revision="jb-mr1" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="jellybean" />
