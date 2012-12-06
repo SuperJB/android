@@ -45,11 +45,15 @@
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/android-clat" name="platform/external/android-clat" />
+  <project path="external/android-mock" name="platform/external/android-mock" />
+  <project path="external/ant-glob" name="platform/external/ant-glob" />
+  <project path="external/antlr" name="platform/external/antlr" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" />
+  <project path="external/apache-http" name="platform/external/apache-http" />
+  <project path="external/apache-qp" name="platform/external/apache-qp" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" />
+  <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="jellybean" />
   <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
