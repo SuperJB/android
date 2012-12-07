@@ -355,7 +355,7 @@
 
 
 <!-- SuperTe@m -->
-  <project path="build" name="SuperJB/android_build" remote="github" revision="jellybean" >
+  <project path="build" name="SuperJB/android_build" remote="github" revision="jb-4.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
