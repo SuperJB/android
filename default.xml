@@ -308,6 +308,9 @@
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="github" revision="jb-mr1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
