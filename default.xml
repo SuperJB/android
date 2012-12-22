@@ -251,7 +251,9 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="hardware/ril" name="SuperJB/android_hardware_ril" remote="github" revision="jellybean" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="jellybean" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
