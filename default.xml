@@ -132,7 +132,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/libpng" name="platform/external/libpng" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/libppp" name="platform/external/libpp" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/libppp" name="platform/external/libppp" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/libselinux" name="platform/external/libselinux" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/libsepol" name="platform/external/libsepol" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
   <project path="external/libusb" name="platform/external/libusb" remote="aosp" revision="refs/tags/android-4.2.1_r1" />
