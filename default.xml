@@ -11,7 +11,7 @@
            remote="github"
            sync-j="4" />
 
-  <project path="android" name="SuperJB/android" remote="github" revision="jellybean" />
+  <project path="android" name="SuperJB/android" remote="github" revision="jb-4.2" />
   
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="master" />
   <project path="bionic" name="SuperJB/android_bionic" remote="github" revision="jb-4.2" />
@@ -209,7 +209,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="jellybean" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="master" />
-  <project path="frameworks/av" name="SuperJB/android_frameworks_av" remote="github" revision="jellybean" />
+  <project path="frameworks/av" name="SuperJB/android_frameworks_av" remote="github" revision="jb-4.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="master" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="master" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" remote="aosp" revision="master" />
@@ -343,7 +343,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="master" />
   <project path="sdk" name="AOKP/android_sdk" remote="github" revision="jb-mr1" />
   <project path="system/bluetooth" name="SuperJB/android_system_bluetooth" remote="github" revision="jb-4.2" />
-  <project path="system/core" name="SuperJB/android_system_core" remote="github" revision="jellybean" />
+  <project path="system/core" name="SuperJB/android_system_core" remote="github" revision="jb-4.2" />
   <project path="system/extras" name="AOKP/system_extras" remote="github" revision="jb-mr1" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="master" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="jellybean" />
@@ -370,12 +370,12 @@
   </project>
 
 <!-- Apps -->
-  <project path="frameworks/base" name="SuperJB/android_frameworks_base" remote="github" revision="jellybean" />
+  <project path="frameworks/base" name="SuperJB/android_frameworks_base" remote="github" revision="jb-4.2" />
   <project path="packages/apps/ContactsWidgets" name="SuperJB/android_packages_apps_ContactsWidgets" remote="github" revision="jellybean" />
   <project path="packages/apps/FileExplorer" name="SuperJB/android_packages_apps_FileExplorer" remote="github" revision="jellybean" />
   <project path="packages/apps/Notes" name="SuperJB/android_packages_apps_Notes" remote="github" revision="jellybean" />
-  <project path="packages/apps/ROMControl" name="SuperJB/android_packages_apps_ROMControl" remote="github" revision="jellybean" />
-  <project path="packages/apps/Settings" name="SuperJB/android_packages_apps_Settings" remote="github" revision="jellybean" />
+  <project path="packages/apps/ROMControl" name="SuperJB/android_packages_apps_ROMControl" remote="github" revision="jb-4.2" />
+  <project path="packages/apps/Settings" name="SuperJB/android_packages_apps_Settings" remote="github" revision="jb-4.2" />
   <project path="packages/apps/SoundRecorder2" name="SuperJB/android_packages_apps_SoundRecorder2" remote="github" revision="jellybean" />
   <project path="packages/apps/Wallpapers" name="SuperJB/android_packages_apps_Wallpapers" remote="github" revision="jellybean" />
 
