@@ -20,7 +20,7 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="master" />
   <project path="dalvik" name="SuperJB/android_dalvik" remote="github" revision="jb-4.2" />
-  <project path="development" name="AOKP/platform_development" remote="github" revision="jb-mr1" />
+  <project path="development" name="platform/development" remote="aosp" revision="master" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device" remote="aosp" revision="master" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" remote="aosp" revision="master" />
   <project path="device/common" name="device/common" remote="aosp" revision="master" />
@@ -64,7 +64,7 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="master" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="master" />
-  <project path="external/chromium" name="AOKP/external_chromium" remote="github" revision="jb-mr1" />
+  <project path="external/chromium" name="platform/external/chromium" remote="aosp" revision="master" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" remote="aosp" revision="master" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" remote="aosp" revision="master" />
   <project path="external/clang" name="platform/external/clang" remote="aosp" revision="master" />
@@ -72,7 +72,7 @@
   <project path="external/dbus" name="platform/external/dbus" remote="aosp" revision="master" />
   <project path="external/dexmaker" name="platform/external/dexmaker" remote="aosp" revision="master" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="aosp" revision="master" />
-  <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="github" revision="jb-mr1" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" revision="master" />
   <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="master" />
   <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="master" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" revision="master" />
@@ -89,7 +89,7 @@
   <project path="external/fat32lib" name="platform/external/fat32lib" remote="aosp" revision="master" />
   <project path="external/fdlibm" name="platform/external/fdlibm" remote="aosp" revision="master" />
   <project path="external/flac" name="platform/external/flac" remote="aosp" revision="master" />
-  <project path="external/freetype" name="AOKP/external_freetype" remote="github" revision="jb-mr1" />
+  <project path="external/freetype" name="platform/external/freetype" remote="aosp" revision="master" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" remote="aosp" revision="master" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" remote="aosp" revision="master" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" remote="aosp" revision="master" />
@@ -98,7 +98,7 @@
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" revision="master" />
   <project path="external/grub" name="platform/external/grub" remote="aosp" revision="master" />
   <project path="external/gtest" name="platform/external/gtest" remote="aosp" revision="master" />
-  <project path="external/guava" name="AOKP/external_guava" remote="github" revision="jb-mr1" />
+  <project path="external/guava" name="platform/external/guava" remote="aosp" revision="master" />
   <project path="external/hamcrest" name="platform/external/hamcrest" remote="aosp" revision="master" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" remote="aosp" revision="master" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="master" />
@@ -172,7 +172,7 @@
   <project path="external/ppp" name="platform/external/ppp" remote="aosp" revision="master" />
   <project path="external/proguard" name="platform/external/proguard" remote="aosp" revision="master" />
   <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="master" />
-  <project path="external/qemu" name="AOKP/android_external_qemu" remote="github" revision="jb-mr1" />
+  <project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="master" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="master" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="jellybean" />
   <project path="external/quake" name="platform/external/quake" remote="aosp" revision="master" />
@@ -180,11 +180,11 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" remote="aosp" revision="master" />
   <project path="external/safe-iop" name="platform/external/safe-iop" remote="aosp" revision="master" />
   <project path="external/sepolicy" name="platform/external/sepolicy" remote="aosp" revision="master" />
-  <project path="external/skia" name="AOKP/external_skia" remote="github" revision="jb-mr1" />
+  <project path="external/skia" name="platform/external/skia" remote="aosp" revision="master" />
   <project path="external/smali" name="platform/external/smali" remote="aosp" revision="master" />
   <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" revision="master" />
   <project path="external/speex" name="platform/external/speex" remote="aosp" revision="master" />
-  <project path="external/sqlite" name="AOKP/external_sqlite" remote="github" revision="jb-mr1" />
+  <project path="external/sqlite" name="platform/external/sqlite" remote="aosp" revision="master" />
   <project path="external/srec" name="SuperJB/android_external_srec" remote="github" revision="jb-4.2" />
   <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="master" />
   <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="master" />
@@ -199,15 +199,15 @@
   <project path="external/tremolo" name="platform/external/tremolo" remote="aosp" revision="master" />
   <project path="external/v8" name="platform/external/v8" remote="aosp" revision="master" />
   <project path="external/valgrind" name="platform/external/valgrind" remote="aosp" revision="master" />
-  <project path="external/webkit" name="AOKP/external_webkit" remote="github" revision="jb-mr1" />
+  <project path="external/webkit" name="platform/external/webkit" remote="aosp" revision="master" />
   <project path="external/webp" name="platform/external/webp" remote="aosp" revision="master" />
   <project path="external/webrtc" name="platform/external/webrtc" remote="aosp" revision="master" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="aosp" revision="master" />
-  <project path="external/wpa_supplicant_8" name="AOKP/android_external_wpa_supplicant_8" remote="github" revision="jb-mr1" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="master" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="master" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" remote="aosp" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="jellybean" />
-  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="jellybean" />
+  <project path="external/zlib" name="platform/external/zlib" remote="aosp" revision="master" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="master" />
   <project path="frameworks/av" name="SuperJB/android_frameworks_av" remote="github" revision="jb-4.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="master" />
@@ -232,7 +232,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="aosp" revision="master" />
   <project path="gdk" name="platform/gdk" remote="aosp" revision="master" />
   <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" revision="master" />
-  <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="github" revision="jb-mr1" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="aosp" revision="master" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="master" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="jellybean" />
@@ -260,9 +260,9 @@
   <project path="libnativehelper" name="platform/libnativehelper" remote="aosp" revision="master" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="master" />
-  <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="aosp" revision="master" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="github" revision="jb-mr1" />
-  <project path="packages/apps/Calculator" name="AOKP/packages_apps_Calculator" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" revision="master" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="master" />
   <project path="packages/apps/Camera" name="AOKP/packages_apps_Camera" remote="github" revision="jb-mr1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="master" />
@@ -270,9 +270,9 @@
   <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" revision="master" />
-  <project path="packages/apps/Exchange" name="AOKP/packages_apps_Exchange" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="master" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" revision="master" />
-  <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="master" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="master" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="master" />
@@ -290,7 +290,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="master" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="master" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="master" />
-  <project path="packages/apps/Stk" name="AOKP/packages_apps_Stk" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" remote="aosp" revision="master" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" revision="master" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="master" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="aosp" revision="master" />
@@ -303,9 +303,9 @@
   <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="github" revision="jb-mr1" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" revision="master" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="aosp" revision="master" />
-  <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="github" revision="jb-mr1" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" revision="master" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" revision="master" />
-  <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="github" revision="jb-mr1" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" remote="aosp" revision="master" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="master" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="master" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" revision="master" />
@@ -321,7 +321,6 @@
   <project path="pdk" name="platform/pdk" remote="aosp" revision="master" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" remote="aosp" revision="master" groups="linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" remote="aosp" revision="master" groups="linux" />
-  <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="master" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="master" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" revision="master" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" revision="master" />
@@ -341,7 +340,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="master" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="master" />
-  <project path="sdk" name="AOKP/android_sdk" remote="github" revision="jb-mr1" />
+  <project path="sdk" name="platform/sdk" remote="aosp" revision="master" />
   <project path="system/bluetooth" name="SuperJB/android_system_bluetooth" remote="github" revision="jb-4.2" />
   <project path="system/core" name="SuperJB/android_system_core" remote="github" revision="jb-4.2" />
   <project path="system/extras" name="AOKP/system_extras" remote="github" revision="jb-mr1" />
